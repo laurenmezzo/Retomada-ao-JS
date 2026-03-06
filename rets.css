@@ -1,5 +1,57 @@
 *{
     margin:0px;
     padding:0px;
-    color: #060218;
+    color: #0c0435;
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    height:150px;
+    text-align:center;
+    background-color: #f0e00a;
+    display:block;
+    overflow:hidden;
+}
+h1{
+    font-size:40px;
+    margin-top:50px;
+    color:rgb(0, 0, 7);
+}
+body{
+    background-color:rgb(255, 255, 248);
+}
+main{
+    width:80%;
+    margin: 20px 0px 0px 10%;
+}
+#trocaChapeu{
+    margin: 10px 0px 10px 0px;
+}
+#chapeu{
+    height:150px;
+    width:200px;
+    border-radius: 100px 100px 0px 0px;
+    display:block;
+    overflow:hidden;
+}
+#chapeu div{
+    margin:50px 0px 0px 65px;
+    width:70px;
+    height:70px;
+    border-radius:35px 35px 30px 30px;
+    background-color:white;
+    overflow: hidden;
+}
+#chapeuLetra{
+    text-align: center;
+    font-size:50px;
+    background-color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.Mario{
+    background-color: red;
+    color:red;
+}
+.Luigi{
+    background-color: rgb(0, 255, 0);
+    color: #00ff00;
 }
