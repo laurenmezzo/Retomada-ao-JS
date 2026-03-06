@@ -56,11 +56,11 @@ main{
     color: #00ff00;
 }
 .esfera{
-    background-image: url(earth_PNG3.png);
-    background-color:#aaaaaa;
-    height:50px;
-    width:50px;
-    border-radius:25px;
+    background-image: url('../Retomada-ao-JS/earth_PNG3.png');
+    height:63px;
+    width:63px;
+    border-radius:31px;
     display:block;
     margin:5px;
+    float: left;
 }
