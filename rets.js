@@ -30,5 +30,15 @@ btnMais1.addEventListener("click", () => {
     let idade = document.getElementById("input").value;
     let idadeInt = parseInt(idade) + 1;
     let idadeStr = idadeInt.toString();
-    document.getElementById(span).innerHtml = idadeStr;
+    document.getElementById("span").innerHTML = idadeStr;
+});
+
+const btnEsferas = document.getElementById("addEsferas");
+let totalEsferas = 0;
+let conteuEsferas = "";
+let esferas = '<div class="esfera"></div>';
+
+btnEsferas.addEventListener("click", () => {
+    totalEsferas = totalEsferas+1;
+    document.getElementById("agrupaEsferas").innerHTML = esferas;
 });
